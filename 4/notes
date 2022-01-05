@@ -1,0 +1,2 @@
+for i in `ls -1`; do sed -i 's/^ //g' $i; done
+for i in `ls -1`; do sed -i 's/  / /g' $i; done
